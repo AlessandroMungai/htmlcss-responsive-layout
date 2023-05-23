@@ -27,6 +27,26 @@
         display: none;
 }
 
+.row-card{
+        display: flex;
+        flex-wrap: wrap;
+        padding: 10px;
+        margin: 0 -10px;
+}
+
+.col-card{
+        width: calc(100% - 20px);
+        margin: 0 10px 10px;
+}
+
+.col-card > div{
+        padding: 10px;
+}
+
+.col-style{
+        border-radius: 15px;
+}
+
 /*
 
 ---------------------------
@@ -41,6 +61,14 @@
         /*--HEADER--*/
 
         /*--MAIN--*/
+
+        .col-card{
+                width: calc(100% / 3 - 20px);
+        }
+
+        .col-card:first-child {
+                width: calc(((100% / 3) * 2) - 20px)
+        }
 
 }
 
@@ -67,6 +95,16 @@
         MAIN
         
         --*/
+
+        .double-content{
+                display: flex;
+                justify-content: space-between;   
+        }
+
+        .double-content > div{
+                width: 50%;   
+        }
+
 
 }
 
