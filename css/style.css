@@ -93,6 +93,10 @@
                 width: calc(((100% / 3) * 2) - 20px)
         }
 
+        .fourth-section .col-card{
+                width: calc(100% / 2 - 20px);
+        }
+
         .testimonial-row{
                 display:flex;
         }
@@ -130,6 +134,10 @@
 
         .double-content > div{
                 width: 50%;   
+        }
+
+        .fourth-section .col-card{
+                width: calc(100% / 3 - 20px);
         }
 
 

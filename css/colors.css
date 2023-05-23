@@ -4,6 +4,7 @@
     --main-color:#0084FD;
     --main-colorlight:#B5DDFF;
     --secondary-color:#9792E4;
+    --third-color:white;
 }
 
 .main-color-text{
@@ -24,6 +25,10 @@
 
 .secondary-color-bg{
     background-color: var(--secondary-color);
+}
+
+.third-color-bg{
+    background-color: var(--third-color);
 }
 
 
