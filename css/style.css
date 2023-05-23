@@ -27,6 +27,7 @@
         display: none;
 }
 
+
 /*****MAIN*****/
 
 /*****FIRST-SECTION*****/
@@ -69,6 +70,9 @@
         padding: 10px;
 }
 
+/*****FIFTH-SECTION*****/
+
+
 
 /*
 
@@ -93,12 +97,28 @@
                 width: calc(((100% / 3) * 2) - 20px)
         }
 
+        .row-card-second-section{
+                display: flex;
+        }
+
+        .left, .right{
+                width: 50%;
+        }
+
         .fourth-section .col-card{
                 width: calc(100% / 2 - 20px);
         }
 
         .testimonial-row{
                 display:flex;
+        }
+
+        .row-fith-section{
+                display:flex
+        }
+
+        .col-fifth-section{
+                width: 50%;
         }
 
 }
