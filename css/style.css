@@ -27,6 +27,10 @@
         display: none;
 }
 
+/*****MAIN*****/
+
+/*****FIRST-SECTION*****/
+
 .row-card{
         display: flex;
         flex-wrap: wrap;
@@ -46,6 +50,25 @@
 .col-style{
         border-radius: 15px;
 }
+
+/*****SECOND-SECTION*****/
+
+.row-card-second-section{
+        padding: 10px;
+}
+
+/*****THIRD-SECTION*****/
+
+.third-section h3,h2,p {
+        margin-bottom: 20px;
+        text-align: center;
+}
+
+.testimonial{
+        text-align: center;
+        padding: 10px;
+}
+
 
 /*
 
@@ -68,6 +91,10 @@
 
         .col-card:first-child {
                 width: calc(((100% / 3) * 2) - 20px)
+        }
+
+        .testimonial-row{
+                display:flex;
         }
 
 }
