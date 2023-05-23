@@ -1,14 +1,31 @@
-@import "/css/reset.css";
-@import "/css/colors.css";
-@import "/css/general.css";
+@import "reset.css";
+@import "colors.css";
+@import "general.css";
 
 /*****HEADER*****/
 
+.row-navhead{
+        display: flex;
+        justify-content: space-between;
+        padding: 10px;
+}
 
+.row-navhead .col-nav ul{
+        display: flex;
+        list-style: none;
+        
+}
 
+.row-navhead .col-nav ul li a{
+        display: inline-block;
+        text-decoration: none;
+        color: white;
+        padding: 10px;
+}
 
-
-
+.col-nav{
+        display: none;
+}
 
 /*
 
@@ -17,4 +34,40 @@
 ---------------------------
 
 +/
+
+/* to tablet -> from 768px to */
+@media screen and (min-width: 768px) {
+        
+        /*--HEADER--*/
+
+        /*--MAIN--*/
+
+}
+
+/* to desk -> from 992px to */
+@media screen and (min-width: 992px) {
+        
+        /*--
+        
+        HEADER
+        
+        --*/
+
+        .col-menu{
+                display: none;
+        }
+
+        .col-nav{
+                display: block;
+        }
+
+
+        /*--
+        
+        MAIN
+        
+        --*/
+
+}
+
 
