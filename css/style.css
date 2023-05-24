@@ -170,14 +170,12 @@
         border-radius: 60%;
 }
 
-/*****FOURTH-SECTION*****/
-
-
 /*****THIRD-SECTION*****/
 
 .third-section{
-        margin-top: 50px;
+        margin-top: 40px;
         text-align: center;
+        margin-bottom: 40px;
 }
 
 .third-section h2{
@@ -221,6 +219,58 @@
 .third-section h3{
         color: white;
         padding: 30px
+}
+
+/*****FOURTH-SECTION*****/
+
+.fourth-section{
+        padding: 0 12px;
+}
+
+.fourth-section h2{
+        text-align: center;
+        padding: 20px 0px;
+        color: white;
+        font-size: 2rem;
+}
+
+.col-style-number-card{
+        border-radius: 40px;
+        padding: 20px;
+}
+
+.number-card{
+        color: var(--secondary-color);
+        font-size: 2.5rem;
+        padding: 0 20px;
+        font-weight: bold;
+}
+
+.fourth-section h3{
+        color: var(--secondary-color);
+        padding: 10px 20px;
+}
+
+.fourth-section .text-number-card{
+        padding: 20px;
+        font-size: smaller;
+        line-height: 25px;
+        font-weight: bold;
+        color: #687F93;
+}
+
+.button-number-card{
+        padding: 20px 20px;
+}
+
+
+.button-number-card a{
+        background-color: var(--secondary-color);
+        padding: 10px 50px;
+        color: white;
+        border-radius: 25px;
+        text-decoration: none;
+        font-weight: bold;
 }
 
 /*****FIFTH-SECTION*****/
