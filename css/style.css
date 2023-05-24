@@ -308,8 +308,9 @@
         color: var(--secondary-color);
         position: relative;
         font-size: 3rem;
-        top: -159px;
-        right: -73px;
+        top: -168px;
+        right: -157px;
+        width: 50%;
 }
 
 .fifth-section h3{
@@ -318,7 +319,7 @@
 }
 
 .button-linkedin{
-        padding: 30px 0;
+        padding: 40px 0;
 }
 
 .button-linkedin a{
@@ -329,9 +330,54 @@
         text-decoration: none;
 }
 
-
 /*****SIXTH-SECTION*****/
 
+.text-sixth-section{
+        text-align: center;
+}
+
+.text-sixth-section .first-p{
+        color: #d4d4d4;
+        margin-top: 30px;
+        
+}
+
+.text-sixth-section h3{
+        color: white;
+        font-size: 1.8rem;
+        margin-top: 20px;
+}
+
+.text-sixth-section h2{
+        color: #FDC15F;
+        font-size: 3rem;
+        margin-top: 20px;
+}
+
+.text-sixth-section .second-p{
+        color: white;
+        margin-top: 20px;
+}
+
+.button-get-started{
+        margin-top: 50px;
+}
+
+.button-get-started a{
+        background-color: white;
+        padding: 10px 50px;
+        color: var(--secondary-color);
+        border-radius: 25px;
+        text-decoration: none;
+        font-weight: bold;
+}
+
+.third-p{
+        color: white;
+        margin-top: 50px;
+        font-size: 1rem;
+        margin-bottom: 40px;
+}
 
 /*
 
