@@ -379,6 +379,20 @@
         margin-bottom: 40px;
 }
 
+/*****SEVENTH-SECTION*****/
+
+.seventh-section p{
+        color: white;
+        text-align:center;
+        margin-top: 30px;
+        margin-bottom: 30px;
+}
+
+.seventh-section span{
+        color: var(--secondary-color);
+        text-decoration: underline;
+}
+
 /*
 
 ---------------------------
