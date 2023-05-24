@@ -80,7 +80,7 @@
 }
 
 .col-style{
-        border-radius: 15px;
+        border-radius: 40px;
 }
 
 .row-card img{
@@ -90,7 +90,7 @@
 }
 
 .first-section{
-        padding: 20px 10px;
+        padding: 50px 10px;
         text-align: center;
 }
 
@@ -124,19 +124,103 @@
         padding: 10px;
 }
 
+.second-section img{
+        width: 100%;
+}
+
+.second-section h2{
+        text-align: center;
+        padding: 20px 0px;
+        color: white;
+}
+
+.second-section h3{
+        text-align: center;
+        padding: 20px 0px;
+        color: black;
+}
+
+.second-section p{
+        text-align: center;
+        color: white;
+}
+
+.container-white{
+        background-color: white;
+        border-radius: 50px;
+        margin-bottom: 30px;
+}
+
+.container-white p{
+        color: black;
+        padding: 15px;
+        line-height: 30px;
+}
+
+.purple-circle{
+        text-align: center;
+        padding: 30px;
+}
+
+.purple-circle i{
+        background-color: var(--secondary-color);
+        width: 60px;
+        height: 60px;
+        padding-top: 30px;
+        border-radius: 60%;
+}
+
 /*****FOURTH-SECTION*****/
 
 
 /*****THIRD-SECTION*****/
 
-.third-section h3,h2,p {
-        margin-bottom: 20px;
+.third-section{
+        margin-top: 50px;
         text-align: center;
+}
+
+.third-section h2{
+        color: var(--secondary-color);
+        padding: 20px;
+        font-size: 2rem;
+        line-height: 30px;
+}
+
+.third-section p{
+        color: black;
+        padding: 15px;
+        line-height: 30px;
 }
 
 .testimonial{
         text-align: center;
         padding: 10px;
+}
+
+.third-section .col-testimonial-right p{
+        line-height: 30px;
+        color: white;
+        padding: 10px;
+        display: inline;
+}
+
+.third-section img{
+        margin-top: 30px;
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        padding: 10px;
+        object-fit: cover;
+}
+
+.third-section i{
+        color: white;
+}
+
+.third-section h3{
+        color: white;
+        padding: 30px
 }
 
 /*****FIFTH-SECTION*****/
@@ -174,6 +258,7 @@
 
         .row-card-second-section{
                 display: flex;
+                flex-wrap: wrap;
         }
 
         .left{
@@ -181,6 +266,11 @@
         }
 
         .right{
+                width: 100%;
+        }
+
+
+        .second-section .left{
                 width: 100%;
         }
 
@@ -200,6 +290,8 @@
 
         .testimonial-row{
                 display:flex;
+                align-items: center;
+                padding: 0 10px;
         }
 
         .row-fith-section{
@@ -210,6 +302,9 @@
                 width: 50%;
         }
 
+        .third-section img{
+                margin-top: 10px;
+        }
 }
 
 /* to desk -> from 992px to */
@@ -249,6 +344,23 @@
                 width: calc(100% / 3 - 20px);
         }
 
+        .row-card img{
+                width: 80%;
+        }
+
+        .second-section .left{
+                width: 50%;
+                text-align: center;
+        }
+
+        .second-section img{
+                width: 63%;
+        }
+
+        .second-section .right{
+                width: 33%;
+                text-align: center;
+        }
 
 }
 
