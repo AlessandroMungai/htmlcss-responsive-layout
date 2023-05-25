@@ -25,7 +25,7 @@ header{
 .row-navhead .col-nav ul li a{
         display: inline-block;
         text-decoration: none;
-        color: white;
+        color: var(--white-color);
         padding: 10px;
 }
 
@@ -38,7 +38,7 @@ header{
 }
 
 .row-navhead .col-nav .button-nav{
-        background-color: white;
+        background-color: var(--white-color);
         padding: 10px 15px;
         color: black;
         border-radius: 25px;
@@ -60,9 +60,9 @@ header{
 }
 
 .button-appstore a{
-        background-color: #0084FD;
+        background-color: var(--main-color);
         padding: 10px 15px;
-        color: white;
+        color: var(--white-color);
         border-radius: 25px;
         text-decoration: none;
         font-size: smaller;
@@ -78,6 +78,10 @@ header{
 .col-card{
         width: calc(100% - 20px);
         margin: 0 10px 20px;
+}
+
+.col-logo img{
+        display: block;
 }
 
 .col-card-double{
@@ -137,28 +141,28 @@ header{
 .second-section h2{
         text-align: center;
         padding: 20px 0px;
-        color: white;
+        color: var(--white-color);
 }
 
 .second-section h3{
         text-align: center;
         padding: 20px 0px;
-        color: black;
+        color: var(--black-color);
 }
 
 .second-section p{
         text-align: center;
-        color: white;
+        color: var(--white-color);
 }
 
 .container-white{
-        background-color: white;
+        background-color: var(--white-color);
         border-radius: 50px;
         margin-bottom: 30px;
 }
 
 .container-white p{
-        color: black;
+        color: var(--black-color);
         padding: 15px;
         line-height: 30px;
 }
@@ -192,7 +196,7 @@ header{
 }
 
 .third-section p{
-        color: black;
+        color: var(--black-color);
         padding: 15px;
         line-height: 30px;
 }
@@ -204,7 +208,7 @@ header{
 
 .third-section .col-testimonial-right p{
         line-height: 30px;
-        color: white;
+        color: var(--white-color);
         padding: 10px;
         display: inline;
 }
@@ -219,11 +223,11 @@ header{
 }
 
 .third-section i{
-        color: white;
+        color: var(--white-color);
 }
 
 .third-section h3{
-        color: white;
+        color: var(--white-color);
         padding: 30px
 }
 
@@ -236,7 +240,7 @@ header{
 .fourth-section h2{
         text-align: center;
         padding: 20px 0px;
-        color: white;
+        color: var(--white-color);
         font-size: 2rem;
 }
 
